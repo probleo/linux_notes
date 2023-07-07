@@ -1,0 +1,9 @@
+# To add a user, use the following command
+# The -m flag adds a home directory for the user. The -c flag is essentially a comment but it is primarily used for adding the first and last name of the user. The last argument is the user ID.
+
+useradd -m -c "FirstName LastName" user1
+
+# To add a passwword for the user, use the following command
+# This prompts you to type a password for a specific user.
+
+passwd user1
